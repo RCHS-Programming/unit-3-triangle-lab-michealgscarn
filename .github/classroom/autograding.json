@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "javac *.java \\n java Main",
+      "input": "10\r\n9\r\n11",
+      "output": "Enter side A ::  10\r\nEnter side B ::  9\r\nEnter side C ::  11\r\nPerimeter is 30\r\nArea is 42.42641\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "javac *.java \\n java Main",
+      "input": "3\r\n3\r\n3\r\n",
+      "output": "Enter side A ::  3\r\nEnter side B ::  3\r\nEnter side C ::  3\r\nPerimeter is 9\r\nArea is 3.89711",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "javac *.java \\n java Main",
+      "input": "7\r\n8\r\n9\r\n",
+      "output": "Enter side A ::  7\r\nEnter side B ::  8\r\nEnter side C ::  9\r\nPerimeter is 24\r\nArea is 26.83282",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
