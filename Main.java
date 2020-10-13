@@ -1,5 +1,5 @@
-//Name: 
-//Date: 
+//Name: LD
+//Date: 10/13/20
 
 import java.util.Scanner; 
 
